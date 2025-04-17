@@ -46,4 +46,12 @@ ENV/
 
 # OS specific
 .DS_Store
-Thumbs.db 
+Thumbs.db
+
+# Python version management
+.python-version
+
+# Shell configuration
+.bash_profile
+.bashrc
+.profile 
