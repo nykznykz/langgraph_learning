@@ -28,6 +28,17 @@ The graph structure is visualized below:
 
 ![Web Search LangGraph Structure](assets/1_graph_visualization.png)
 
+### 2_memory.py
+A memory-enabled chatbot that demonstrates:
+- State persistence using `MemorySaver`
+- Thread-based conversation management
+- Multi-thread conversation handling
+- Memory checkpointing and state retrieval
+
+The graph structure is visualized below:
+
+![Memory LangGraph Structure](assets/2_graph_visualization.png)
+
 ## Setup
 
 1. Create a virtual environment:
@@ -54,6 +65,7 @@ Each Python file can be run independently to demonstrate different aspects of La
 ```bash
 python 0_basic_langgraph.py
 python 1_websearch.py
+python 2_memory.py
 ```
 
 ## Dependencies
@@ -71,4 +83,9 @@ python 1_websearch.py
 
 ## Project Status
 
-This is a work in progress, following along with the LangGraph tutorials. More examples and implementations will be added as the tutorials progress. 
+This project follows the LangGraph tutorials and currently includes implementations of:
+- Basic chatbot with state management
+- Web search-enabled chatbot with tool integration
+- Memory-enabled chatbot with thread-based conversation management
+
+More examples and implementations will be added as the tutorials progress. 
